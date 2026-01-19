@@ -1,3 +1,5 @@
+import { Footer, Navigation, WritingPost, WorkPost, SubscriptionBox } from "@/components/ui";
+
 const links = [
     { href: '/about', label: 'About' },
     { href: '/writing', label: 'Writing' },
@@ -36,25 +38,10 @@ const archive = [
 export default function Home() {
   return (
     <main className="flex justify-center flex-col">
-      <div className="max-w-[800px] w-full mx-auto px-4 md:px-6">
+      <div className="max-w-[700px] w-full mx-auto px-4 md:px-6">
         
         {/* Navigation */}
-        <section className="flex justify-between items-center my-[50px]">
-            <div className="font-medium text-lg">
-                <a href="/">Benjamin Saenz</a>
-            </div>
-            <div className="flex gap-9">
-                {links.map((link) => (
-                    <a 
-                        key={link.href} 
-                        href={link.href}
-                        className="text-lg relative opacity-80 hover:opacity-100 transition-opacity duration-300 after:content-[''] after:block after:h-px after:bg-black after:mt-1 after:opacity-0 hover:after:opacity-100 after:transition-opacity after:duration-300"
-                    >
-                        {link.label}
-                    </a>
-                ))}
-            </div>
-        </section>
+        <Navigation links={links} siteName="Benjamin Saenz" />
 
         {/* Welcome Section */}
         <section className="mb-16 mt-26 space-y-6">
@@ -97,22 +84,7 @@ export default function Home() {
           <div className="text-xs font-medium uppercase tracking-wider text-[#757575] mb-3 font-(family-name:--font-inter) transition duration-200 group-hover:opacity-90">
             Latest Post
           </div>
-          <div className="flex flex-col md:flex-row md:items-start md:justify-between md:gap-4 mb-4">
-            <h3 className="text-2xl md:text-3xl italic font-light tracking-[-0.02em] leading-[130%] text-gray-900 mb-2 md:mb-0 font-(family-name:--font-crimson-pro) transition duration-200 group-hover:opacity-90">
-              The Evolution of Online Media
-            </h3>
-            <time className="text-sm text-[#757575] md:whitespace-nowrap font-(family-name:--font-inter) transition duration-200 group-hover:opacity-90">
-              2/20/24
-            </time>
-          </div>
-          <div className="w-full aspect-video bg-gray-100 rounded overflow-hidden transition duration-200 group-hover:opacity-70 cursor-pointer">
-            {/* Placeholder for the pixel art image */}
-            <div className="w-full h-full bg-gradient-to-br from-orange-200 via-blue-200 to-green-200 flex items-center justify-center transition duration-200 group-hover:opacity-90 cursor-pointer">
-              <span className="text-gray-600 font-(family-name:--font-inter) transition duration-200 group-hover:opacity-90 cursor-pointer">
-                Image placeholder
-              </span>
-            </div>
-          </div>
+          <WritingPost title="The Evolution of Online Media" date="2/20/24" image="/images/evolution-of-online-media.jpg" />
         </section>
 
         <div className="border-t border-gray-200 my-8"></div>
@@ -124,21 +96,7 @@ export default function Home() {
           </h2>
           <div className="space-y-12">
             {recentWork.map((work) => (
-              <article key={work.title} className="group cursor-pointer">
-                <div className="w-full aspect-video bg-gray-100 rounded overflow-hidden mb-4">
-                  <div className="w-full h-full bg-linear-to-br from-green-200 via-yellow-200 to-orange-200 flex items-center ihttps://imagecolorpicker.com/tems-center justify-center">
-                    <span className="text-gray-600 font-(family-name:--font-inter)">
-                      {work.title} illustration
-                    </span>
-                  </div>
-                </div>
-                <p className="text-md text-gray-900 font-(family-name:--font-inter) font-medium">
-                  {work.title}
-                </p>
-                <p className="text-md text-[#757575] font-(family-name:--font-inter)">
-                  {work.description}
-                </p>
-              </article>
+              <WorkPost key={work.title} title={work.title} description={work.description} image={work.image} />
             ))}
           </div>
         </section>
@@ -153,19 +111,7 @@ export default function Home() {
           <p className="text-base text-gray-900 leading-relaxed mb-6 font-(family-name:--font-inter)">
             Join 69,000 ambitious entrepreneurs in subscribing to my weekly newsletter, where I share actionable advice on how to become the best version of yourself and industry secrets to transform your life (and yo-yo tricks).
           </p>
-          <form className="flex flex-col sm:flex-row gap-3 mb-3">
-            <input
-              type="email"
-              placeholder="hello@email.com"
-              className="flex-1 px-4 py-3 bg-[#f7f7f7] rounded focus:outline-none font-light text-gray-800 text-base font-(family-name:--font-inter)"
-            />
-            <button
-              type="submit"
-              className="px-6 py-3 bg-[#333333] text-white rounded hover:cursor-pointer hover:bg-[#222222] transition-colors duration-200 font-(family-name:--font-crimson-pro)"
-            >
-              <span className="italic">Subscribe</span>
-            </button>
-          </form>
+          <SubscriptionBox />
           {/* <p className="text-sm font-light italic font-(family-name:--font-crimson-pro) text-gray-500">
             Join 69,000 inspired readers for my weekly newsletter.
           </p> */}
@@ -178,23 +124,21 @@ export default function Home() {
           </div>
           <div className="space-y-4">
             {archive.map((post) => (
-                <article className="flex flex-col md:flex-row md:items-start md:justify-between md:gap-4 group cursor-pointer">
-                    <p className="font-medium text-medium md:text-large text-gray-900 mb-1 md:mb-0 font-(family-name:--font-inter) transition-colors duration-200 group-hover:text-gray-600">
-                        {post.title}
-                    </p>
-                    <time className="text-sm text-[#757575] md:whitespace-nowrap font-(family-name:--font-inter) transition-colors duration-200 group-hover:text-gray-600">
-                        {post.date}
-                    </time>
-                </article>
+              <article key={post.title} className="flex flex-col md:flex-row md:items-start md:justify-between md:gap-4 group cursor-pointer">
+                <p className="font-medium text-medium md:text-large text-gray-900 mb-1 md:mb-0 font-(family-name:--font-inter) transition-colors duration-200 group-hover:text-gray-600">
+                  {post.title}
+                </p>
+                <time className="text-sm text-[#757575] md:whitespace-nowrap font-(family-name:--font-inter) transition-colors duration-200 group-hover:text-gray-600">
+                  {post.date}
+                </time>
+              </article>
             ))}
           </div>
         </section>
 
         <div className="border-t border-gray-200 my-8"></div>
         
-        <footer className="my-[50px]">
-            <div className="text-sm text-gray-400">Benjamin Saenz &copy; {new Date().getFullYear()}</div>
-        </footer>
+        <Footer name="Benjamin Saenz" />
       </div>
     </main>
   );   
