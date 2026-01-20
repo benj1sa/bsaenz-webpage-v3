@@ -26,7 +26,7 @@ export default function Contact() {
             </h2>
           </div>
           <p className="text-base text-gray-900 leading-relaxed font-(family-name:--font-inter)">
-            I'm taking on new work beginning in Fall 2029. Please reach out with as many details as you can and my assistant, Lulu Lemon, will get back to you shortly.
+            Open to connections and opportunities. Reach out to me over email or fill up this contact form.
           </p>
         </section>
 

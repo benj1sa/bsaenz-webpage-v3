@@ -27,182 +27,75 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = [
+
   {
-    slug: 'the-evolution-of-online-media',
-    title: 'The Evolution of Online Media',
-    category: 'Minimalism',
-    date: 'February 20, 2024',
-    coverImage: '/images/evolution-of-online-media.jpg',
-    introParagraph: 'The digital revolution has dramatically reshaped the realm of online media, transforming how we communicate, access information, and interact with the world. This swift evolution from simple web pages to complex, interactive platforms reflects a convergence of technological innovation & cultural shift.',
-    introParagraphAfterImage: 'The digital age has ushered in a seismic shift in the landscape of online media, transforming it from a nascent network of simple web pages to a complex ecosystem of interactive platforms that shape our daily lives. This article explores the evolution of online media, highlighting the technological advancements, societal shifts, and the future trajectory of communication.',
-    sections: [
-      {
-        heading: 'The Dawn of Digital Media',
-        paragraphs: [
-          'In the early 1990s, the internet was a fledgling network of text-based websites and forums. These platforms laid the groundwork for online communication, but were limited in scope and functionality.'
-        ],
-        quote: {
-          quoteText: 'The internet started as a way to communicate academic information. It\'s fascinating to see how it has evolved into a vital part of our daily lives.',
-          authorName: 'JOHN DOE',
-          authorTitle: 'TECH HISTORIAN'
-        }
-      },
-      {
-        heading: 'The Rise of Web 2.0',
-        paragraphs: [
-          'The introduction of Web 2.0 marked a pivotal shift in online media. Platforms like MySpace, Facebook, and YouTube revolutionized how users interacted with content, introducing features that allowed for user-generated content, social networking, and multimedia sharing.'
-        ]
-      },
-      {
-        heading: 'The Age of Interaction and Engagement',
-        paragraphs: [
-          'Social media platforms became the new face of online media facilitating real-time communication, community building, and content creation on an unprecedented scale. The barrier between content creators and consumers dissolved, giving rise to influencers, vloggers, and citizen journalists who reshaped media consumption patterns.'
-        ]
-      }
-    ],
-    socialLinks: {
-      substack: '#',
-      linkedin: '#',
-      facebook: '#'
-    }
-  },
-  {
-    slug: 'birth-of-todays-digital-ecosystem',
-    title: 'Birth of Today\'s Digital Ecosystem',
+    slug: 'the-difference-between-moving-and-becoming',
+    title: 'The Difference Between Moving and Becoming',
     category: 'Lifestyle',
-    date: 'March 1, 2024',
-    coverImage: '/images/birth-of-digital-ecosystem.jpg',
-    introParagraph: 'The internet\'s journey from a rudimentary network of simple web pages to today\'s intricate digital ecosystem is a testament to human ingenuity and the relentless pursuit of progress. This evolution has not only transformed how we access information and communicate but has also redefined our social, economic, and personal landscapes.',
+    date: 'January 10, 2026',
+    coverImage: '/images/the-difference-between-moving-and-becoming.png',
+    introParagraph: 'Our culture defines success linearly.',
     sections: [
       {
-        heading: 'The Dawn of the Digital Age',
         paragraphs: [
-          'In the late 20th century, the internet emerged as a network of computers designed to share information seamlessly across vast distances. The introduction of the World Wide Web in the early 1990s, with its web pages and hyperlinks, marked the beginning of the digital revolution.',
-          'The subsequent development of web browsers made the internet more accessible, leading to an explosion of content and users. This era laid the groundwork for the digital world we know today.'
+          'Most people optimize for progress instead of alignment. Promotions, GPA, titles, and milestones create movement without meaning.',
+          'Get good grades → Find a good job → Get promoted → Retire',
+          'What\'s strange is how often people follow this path perfectly and still wake up feeling disconnected from their own lives. We call it a midlife crisis, as if the problem appeared suddenly, rather than accumulating quietly for decades. How many of us can confidently say we navigate life with intention?',
+          'Alignment is the default state when friction is removed.\nSuppression is the engineered state that requires constant maintenance.',
+          'We\'re told to solve this by "finding our passion" or "doing what we\'re good at." but most people never meaningfully do either. Our system rewards predictability, not exploration. Deviating from the script feels risky, inefficient, and irresponsible.',
+          'Suppressing the part of yourself that wants meaning takes effort. Over time, that effort shows up as numbness, burnout, or quiet resentment.',
+          'Meaning isn\'t assigned. It\'s discovered.',
+          'Not through grand life plans, but through small experiments.'
         ]
       },
       {
-        heading: 'The Rise of Social Media and E-commerce',
         paragraphs: [
-          'The early 2000s witnessed the rise of social media platforms and e-commerce websites, signaling a shift in how people connect and conduct business online. Platforms like MySpace, followed by Facebook and Twitter, revolutionized personal communication, transforming the internet into a space for social interaction and community building.',
-          'Simultaneously, companies like Amazon and eBay were pioneering online retail, offering a new way to shop and ushering in the era of e-commerce.'
+          'Instead of optimizing for a destination, what if we treated life as a series of small experiments? Each experience becomes a data point. Not "did i advance," but "did this bring me closer to what feels true."',
+          'Borrowing from Anne-Laure Le Cunff\'s work on Tiny Experiments, this way of living rests on a few operating principles.',
+          'A commitment to curiosity keeps the system alive. Curiosity is how new options enter your world.',
+          'Mindful productivity prevents sunk-cost loyalty. Quitting something that no longer fits isn\'t failure, it\'s signal detection.',
+          'Collaboration with uncertainty builds trust in motion instead of certainty. Clarity emerges from movement, not from waiting.',
+          'Tiny experiments aren\'t trivial. They\'re how autonomy re-enters a life that\'s been over-optimized. Small acts of curiosity compound into new internal maps. Growth happens when your inner model of yourself updates faster than your external labels.',
+          'The metric shifts from achievement to learning. From status to signal. From accumulation to coherence.'
         ]
       },
       {
-        heading: 'The Mobile Revolution',
         paragraphs: [
-          'The introduction of smartphones and mobile applications in the late 2000s further accelerated the internet\'s evolution, making digital services and information accessible anytime, anywhere. This mobile wave gave birth to the app ecosystem, with millions of apps catering to every possible need and interest, from navigation and productivity to entertainment and fitness.'
-        ]
-      },
-      {
-        heading: 'The Age of Streaming and Cloud Computing',
-        paragraphs: [
-          'Today, we live in an age dominated by streaming services like Netflix and Spotify, and cloud computing platforms that offer on-demand access to computing resources and services.'
-        ]
-      },
-      {
-        heading: 'The Internet of Things (IoT)',
-        paragraphs: [
-          'The Internet of Things has connected everyday objects to the internet, making our homes, cars, and even cities smarter and more efficient.'
-        ]
-      },
-      {
-        heading: 'Challenges and Opportunities',
-        paragraphs: [
-          'As the digital ecosystem grows, so do concerns about privacy, security, and the ethical use of technology. Balancing innovation with these concerns is one of the key challenges of our time. Emerging technologies like 5G, artificial intelligence, and quantum computing promise to further transform the digital landscape, offering new opportunities for innovation and connection.'
-        ],
-        quote: {
-          quoteText: 'The internet\'s evolution from simple web pages to the vast digital ecosystem we navigate today is a mirror reflecting our collective ambition, creativity, and challenges. It\'s a journey that underscores the power of connectivity to unlock human potential and reshape society.',
-          authorName: 'Dr. Alex Rivera',
-          authorTitle: 'Technology Historian'
-        }
-      },
-      {
-        heading: 'Conclusion',
-        paragraphs: [
-          'From its early days to today\'s digital ecosystem, the internet\'s evolution continues to shape our world in profound ways. As we look to the future, we are reminded of the internet\'s potential to foster connectivity, innovation, and transformation across all aspects of life.'
+          'We often mistake endurance for strength. We ignore the signals that something might not actually be for us. We push through some resistance expecting victory on the other side. Negative emotions signaling us to stop, but we suppress them in the name of discipline.',
+          'Suppression requires constant maintenance. It leaks through fatigue, irritability, numbness, and quiet resentment. You can hold it for a while, but the nervous system keeps a ledger. It must show up, there is no stable equilibrium under suppression.',
+          'When effort is misaligned with duty, endurance becomes a slow form of self-erasure. Eventually the emotional debt comes due.',
+          'Alignment feels quieter than ambition, but deeper than motivation. It feels like moving with yourself instead of against yourself.',
+          'Success becomes less about where you end up, and more about whether you recognize yourself along the way.',
+          'Start small. Follow one signal. Run one experiment. Let alignment prove itself.'
         ]
       }
     ],
     socialLinks: {
-      substack: '#',
-      linkedin: '#',
-      facebook: '#'
+      substack: 'https://bsaenz.substack.com/p/the-difference-between-moving-and'
     }
   },
   {
-    slug: 'the-landscape-of-online-livelihoods',
-    title: 'The Landscape of Online Livelihoods',
-    category: 'Business',
-    date: 'February 29, 2024',
-    coverImage: '/images/landscape-of-online-livelihoods.jpg',
-    introParagraph: 'In the fabric of the digital age, the concept of earning a living has been fundamentally transformed. The internet has become a fertile ground for diverse careers, from freelancing and digital entrepreneurship to content creation and remote work. This article explores the myriad ways individuals are navigating and thriving in the online economy.',
+    slug: 'writing-to-reclaim-independent-thought',
+    title: 'Writing To Reclaim Independent Thought',
+    category: 'Lifestyle',
+    date: 'January 10, 2026',
+    coverImage: '/images/writing-to-reclaim-independent-thought.png',
+    introParagraph: 'So many of us today have subjected ourselves to constant feeds of information, notifications, and autoplay. We are slowly losing the ability to think for ourselves. Instead of the intentional consumption of content, we have opted for a hyper-personalized buffet that quietly rewires how we notice, choose, and remember.',
     sections: [
       {
-        heading: 'The Rise of Remote Work',
         paragraphs: [
-          'The global pandemic served as a catalyst for remote work, turning it from a niche option into a mainstream necessity almost overnight. Companies and employees alike discovered the benefits and challenges of working from home, leading to a reevaluation of traditional office structures.',
-          'Many found that remote work offered a better work-life balance while maintaining or even increasing productivity. Businesses have access to a wider pool of talent, not limited by geographical boundaries.'
-        ]
-      },
-      {
-        heading: 'Challenges and Solutions',
-        paragraphs: [
-          'Despite its advantages, remote work also presents challenges such as isolation and the blurring of work-life boundaries. Solutions include digital coworking spaces, regular virtual team meetings, and setting clear work-from-home policies.'
-        ]
-      },
-      {
-        heading: 'The Gig Economy and Freelancing',
-        paragraphs: [
-          'Freelancing has exploded in popularity, with platforms like Upwork and Fiverr facilitating a connection between freelancers and clients in need of specific skills.',
-          'From writing and graphic design to programming and digital marketing, freelancing offers a vast array of opportunities. Successful freelancers often emphasize the importance of building a strong online presence and personal brand.'
-        ],
-        quote: {
-          quoteText: 'In the gig economy, your reputation is your most valuable asset.',
-          authorName: 'Jane Doe',
-          authorTitle: 'Freelance Graphic Designer'
-        }
-      },
-      {
-        heading: 'Entrepreneurship in the Digital Age',
-        paragraphs: [
-          'The internet has lowered the barriers to entry for starting a business, enabling entrepreneurs to launch startups with just a laptop and an idea.',
-          'Companies like Dropbox and Slack began as small startups before becoming giants in the tech industry. Online stores on platforms like Shopify have enabled entrepreneurs to sell products worldwide without the need for physical premises.',
-          'Standing out in a crowded online market can be challenging. While starting costs may be lower, scaling a business often requires significant investment.'
-        ]
-      },
-      {
-        heading: 'Content Creation: A New Frontier',
-        paragraphs: [
-          'Content creation has emerged as a viable career path, with platforms like YouTube, Twitch, and Patreon offering creators the chance to monetize their talents and passions.',
-          'From gaming and tutorials to lifestyle vlogging, there are endless niches for content creators. Successful creators emphasize the importance of engaging with their audience and building a community.'
-        ],
-        quote: {
-          quoteText: 'Content creation is about sharing your passion and connecting with like-minded individuals.',
-          authorName: 'John Smith',
-          authorTitle: 'YouTube Creator'
-        }
-      },
-      {
-        heading: 'The Future of Online Livelihoods',
-        paragraphs: [
-          'Emerging trends include artificial intelligence and automation, which are expected to create new job categories while transforming existing ones. Businesses and freelancers alike are increasingly focusing on sustainability and ethical practices.',
-          'Adapting to change and continuous learning are key to thriving in the online economy. Skills in digital marketing, web development, and data analysis are becoming increasingly valuable.'
-        ]
-      },
-      {
-        heading: 'Conclusion',
-        paragraphs: [
-          'The landscape of online livelihoods is vast and varied, offering unprecedented opportunities for those willing to navigate its challenges. As the digital world continues to evolve, so too will the ways in which we work, create, and connect.'
+          'I wasn\'t the best writing student in grade school. Recently, I\'ve felt like I\'ve lost my opinions to social media. I\'ve spent hours scrolling on YouTube, without spending the warranted time forming proper opinion on them. I catch myself reaching for summaries before struggling with the ideas myself. I have spent too long consuming without digesting. Too long reacting without choosing. As I sit down to write this, I notice how fragmented my thought process is. An emotion here, a thought there. I believe the quality of our thinking is deeply tied to how well we write.',
+          'With the advent of artificial intelligence, more people are offloading an increasing variety of cognitive tasks to LLMs. In tandem to this, there is an increasing pressure to optimize and deliver results fast. In the speed, we lose our depth, intentionality, and autonomy. We lose the capacity to form hypotheses and glean the meaning of content within the context of our own experiences and bring a new idea into the world. Together, they quietly erode our agency as thinkers.',
+          'Writing may be the thing that shields me from this. It\'s a practice that rewards coherence, novelty, authenticity, and the courage to hold an opinion. So often as an engineer I tend towards optimization. I would like to lean into meaning.',
+          'What about the plot of Dune 2 had me sitting on the edge of my seat, anxious about the timing of my restroom visit? Why do I feel a sense of dread for the next generation in the midst of AI? What does ethical AI behavior look like? Who gets to decide? I don\'t actually know why I love certain stories. That bothers me.',
+          'I want this blog to be the place where I interrogate the opinions I\'ve protected but never tested. I want to exercise my writing and honor my interests by giving them a proper medium. I want it to be the place where I am proven wrong. If I have given myself confidence in my opinions, knowledge, way of living, and values, this blog will have been a success.'
         ]
       }
     ],
     socialLinks: {
-      substack: '#',
-      linkedin: '#',
-      facebook: '#'
+      substack: 'https://bsaenz.substack.com/p/writing-to-reclaim-independent-thought'
     }
-  }
+  },
 ];
 
 // Helper function to get post by slug

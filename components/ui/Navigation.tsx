@@ -21,8 +21,10 @@ export function Navigation({ links, siteName = "Benjamin Saenz" }: NavigationPro
   useEffect(() => {
     if (headerRef.current) {
       const updateHeaderBottom = () => {
-        const rect = headerRef.current!.getBoundingClientRect();
-        setHeaderBottom(rect.bottom);
+        if (headerRef.current) {
+          const rect = headerRef.current.getBoundingClientRect();
+          setHeaderBottom(rect.bottom);
+        }
       };
       
       updateHeaderBottom();

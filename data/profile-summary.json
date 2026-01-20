@@ -1,0 +1,286 @@
+{
+  "personalInformation": {
+    "fullName": "Benjamin Saenz",
+    "preferredName": "Ben",
+    "location": {
+      "origin": "Severna Park, Maryland",
+      "currentEducation": "University of Maryland - College Park"
+    },
+    "roles": [
+      "Computer Engineering Student",
+      "Full-Stack Developer",
+      "Creator"
+    ],
+    "description": "A computer engineering student, full-stack developer, and creator that loves building things that impact lives."
+  },
+  "about": {
+    "personalInterests": [
+      "Running trails",
+      "Tinkering on side projects",
+      "AI and its applications in transforming our world"
+    ],
+    "values": [
+      "Creativity",
+      "Persistence",
+      "Collaborative spirit",
+      "Curiosity to understand and innovate"
+    ],
+    "approach": "Values creativity, persistence, and a collaborative spirit in both studies and personal projects. Loves taking on challenges and learning from every experience along the way.",
+    "belief": "Believes in the power of technology to improve lives and is driven by curiosity to understand and innovate."
+  },
+  "education": {
+    "current": {
+      "institution": "University of Maryland - College Park",
+      "fieldOfStudy": "Computer Engineering",
+      "status": "Currently Studying"
+    }
+  },
+  "workExperience": [
+    {
+      "company": "UMD Loop",
+      "position": "Software Integration Engineer",
+      "duration": "Sept. 2024 – Present",
+      "type": "Current",
+      "description": "Developed and integrated autonomous navigation and stereo vision systems for a Mars rover competing in URC (University Rover Challenge).",
+      "responsibilities": [
+        "Localized & bounded key points in 3D space using image data, OpenCV, and epipolar geometry to create target coordinates",
+        "Developed virtual representation of target using ROS2 and key-point detection to path-find and move a 4DOF robotic arm",
+        "Implemented coordinate transformation system using NumPy change of basis matrices to interface with 4DOF robotic arm"
+      ],
+      "technologies": ["ROS2", "Python", "OpenCV", "Epipolar Geometry", "NumPy", "3D Localization", "Key-Point Detection"]
+    },
+    {
+      "company": "Easy Dynamics Corp",
+      "position": "Software Engineering Intern",
+      "duration": "Jan. 2024 – Feb. 2024",
+      "type": "Internship",
+      "description": "Conducted technical documentation and code review for demo projects",
+      "responsibilities": [
+        "Interviewed key stakeholders to analyze the current state of program delivery and documentation",
+        "Mapped undocumented code functionality for contract proposal demos using HTML, CSS, and JavaScript",
+        "Extended demo functionality for key applications, ensuring smooth transitions between features",
+        "Designed custom architecture documentation utilizing aspects of Zachman, TOGAF, 4+1, and C4 frameworks"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "Technical Documentation", "Architecture Frameworks"]
+    },
+    {
+      "company": "College Prep Excellence Roadmap Academy",
+      "position": "Private STEM & Programming Tutor",
+      "duration": "Feb. 2023 – Present",
+      "type": "Part-Time",
+      "description": "Provided personalized tutoring to high school students in programming and STEM subjects",
+      "responsibilities": [
+        "Designed 40+ custom lesson plans tailored to student needs, saving over 20 hours of study material research each month",
+        "Communicated complex programming and mathematical concepts with a 100% student satisfaction rate",
+        "Adapted learning materials to match each student's learning pace, fostering a better understanding of STEM concepts"
+      ],
+      "achievements": [
+        "100% student satisfaction rate",
+        "40+ custom lesson plans created",
+        "20+ hours saved per month in study material research"
+      ]
+    },
+    {
+      "company": "First Year Innovation & Research Experience",
+      "position": "Design Engineering Research Intern",
+      "duration": "May. 2023 – Jul. 2023",
+      "type": "Research Internship",
+      "description": "Contributed to optimizing unmanned underwater robotics propulsion systems",
+      "responsibilities": [
+        "Optimized underwater remote robotic propulsion by 48% using Bayesian optimization techniques",
+        "Built and tested nine designs based on parameters selected via Latin hypercube sampling in R",
+        "Presented final project to over 100 attendees, including professors and students, at the FIRE research conference"
+      ],
+      "technologies": ["R", "Bayesian Optimization", "Latin Hypercube Sampling"],
+      "achievements": [
+        "48% improvement in propulsion optimization",
+        "Presented to 100+ attendees at research conference"
+      ]
+    },
+    {
+      "company": "College Success Scholars",
+      "position": "Executive Board Co-Chair & Team Leader",
+      "duration": "Aug. 2022 – Present",
+      "type": "Leadership Role",
+      "description": "Led student success initiatives to foster academic and professional growth",
+      "responsibilities": [
+        "Presented at student events, engaging over 120 attendees on topics related to academic and career success",
+        "Led a team of 25 members to organize 15+ student events, ensuring smooth execution and adherence to deadlines",
+        "Developed monthly agendas and coordinated logistics for large-scale student events"
+      ],
+      "achievements": [
+        "Engaged 120+ attendees at presentations",
+        "Led team of 25 members",
+        "Organized 15+ student events"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "UMD Loop Mars Rover Development",
+      "url": "https://www.umdloop.com/",
+      "description": "Pioneering the next generation of Mars exploration through robotics and autonomous systems.",
+      "team": "UMD Loop - Competitive engineering team",
+      "competition": "University Rover Challenge (URC)",
+      "role": "Integration Sub-Team Member",
+      "focus": "Ensuring seamless communication and functionality across all rover systems",
+      "technologies": ["ROS2", "Python", "OpenCV", "MATLAB", "CAN"],
+      "keyContributions": [
+        {
+          "area": "Autonomous Navigation",
+          "details": "Researching and implementing epipolar geometry, stereo camera calibration, and depth estimation to enable precise autonomous movement and obstacle avoidance"
+        },
+        {
+          "area": "Core Communication",
+          "details": "Facilitating CAN protocol-based communication for motor controls and sensor data integration, ensuring real-time responsiveness across the rover"
+        },
+        {
+          "area": "Computer Vision",
+          "details": "Applying advanced techniques such as Scale-Invariant Feature Transform (SIFT) and disparity mapping for 3D scene reconstruction and stereo vision"
+        }
+      ],
+      "technicalDetails": {
+        "mathematicalConcepts": [
+          "Epipolar geometry",
+          "Fundamental matrix derivation",
+          "Stereo camera calibration and rectification",
+          "Depth map computation"
+        ],
+        "applications": [
+          "Stereo vision and depth mapping",
+          "3D scene reconstruction",
+          "Obstacle avoidance for Martian terrain navigation"
+        ]
+      },
+      "impact": "Contributing to the broader mission of advancing planetary exploration through hands-on experience in system integration, robotics software development, and cutting-edge computer vision techniques"
+    },
+    {
+      "title": "Aether Gravitational Lensing",
+      "url": "https://aetherumd.github.io/aether-astra/",
+      "description": "Unveiling the Origins of the Universe with Cutting-Edge Simulations.",
+      "field": "Astrophysics",
+      "technologies": ["Next.js", "Tailwind CSS", "Aceternity UI", "React.js"],
+      "collaboration": "Team project",
+      "purpose": "Developing a model to simulate the universe's earliest star clusters and galaxies, incorporating gravitational lensing effects observed by the James Webb Space Telescope (JWST)",
+      "methodology": {
+        "tools": [
+          "Supercomputers",
+          "James Webb Space Telescope (JWST) data"
+        ],
+        "approach": "Creating a software pipeline that applies gravitational distortions to simulated galaxies, allowing comparison with real JWST observations"
+      },
+      "goals": [
+        "Simulate first stars and galaxies formation",
+        "Replicate gravitational lensing phenomena",
+        "Provide open-source tools for global astronomy community"
+      ],
+      "impact": {
+        "scientific": "Advancing understanding of galaxy formation and early universe",
+        "community": "Open-source tools for scientists, space agencies, and students",
+        "innovation": "Novel combination of synthetic simulations and gravitational lensing effects"
+      },
+      "significance": [
+        "Advancing Astronomy: Deeper insights into galaxy formation",
+        "Global Collaboration: Supporting broader astronomy community",
+        "Inspiring Future Generations: Model for scientific inquiry and collaborative high-tech projects"
+      ]
+    }
+  ],
+  "technicalSkills": {
+    "webTechnologies": [
+      "Next.js",
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "cloudAndDevOps": [
+      "AWS",
+      "Vercel"
+    ],
+    "roboticsAndEngineering": [
+      "ROS2",
+      "Python",
+      "OpenCV",
+      "MATLAB",
+      "CAN Protocol"
+    ],
+    "dataScienceAndOptimization": [
+      "R",
+      "Bayesian Optimization",
+      "Latin Hypercube Sampling",
+      "NumPy"
+    ],
+    "computerVision": [
+      "Stereo Vision",
+      "Epipolar Geometry",
+      "SIFT (Scale-Invariant Feature Transform)",
+      "Disparity Mapping",
+      "3D Scene Reconstruction",
+      "Depth Estimation",
+      "Camera Calibration"
+    ],
+    "uiLibraries": [
+      "Aceternity UI",
+      "Framer Motion",
+      "Material UI"
+    ],
+    "other": [
+      "Technical Documentation",
+      "Architecture Frameworks (Zachman, TOGAF, 4+1, C4)"
+    ]
+  },
+  "interests": {
+    "technical": [
+      "AI and Machine Learning applications",
+      "Robotics and Autonomous Systems",
+      "Computer Vision",
+      "Astrophysics Simulations",
+      "Full-Stack Development"
+    ],
+    "personal": [
+      "Running",
+      "Side Projects",
+      "Learning New Technologies"
+    ]
+  },
+  "socialMedia": {
+    "linkedin": "https://linkedin.com/in/bsaenz2"
+  },
+  "contact": {
+    "availability": "Open to connections and opportunities",
+    "preferredMethod": "Email or LinkedIn",
+    "message": "Reach out to me over email or fill up this contact form. I will get back to you ASAP."
+  },
+  "achievements": {
+    "academic": [
+      "Computer Engineering Student at University of Maryland - College Park"
+    ],
+    "professional": [
+      "48% improvement in underwater robotic propulsion optimization",
+      "100% student satisfaction rate as STEM & Programming Tutor",
+      "40+ custom lesson plans created for students",
+      "Presented research to 100+ attendees at FIRE conference"
+    ],
+    "leadership": [
+      "Led team of 25 members in College Success Scholars",
+      "Organized 15+ student events",
+      "Engaged 120+ attendees at presentations"
+    ],
+    "technical": [
+      "Developed autonomous navigation systems for Mars rover",
+      "Implemented computer vision systems for robotics",
+      "Contributed to open-source astrophysics research tools"
+    ]
+  },
+  "specializations": [
+    "System Integration",
+    "Robotics Software Development",
+    "Computer Vision",
+    "Full-Stack Web Development",
+    "Technical Documentation",
+    "Educational Content Creation"
+  ]
+}

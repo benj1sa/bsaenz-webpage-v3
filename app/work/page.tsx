@@ -12,6 +12,7 @@ const workProjects = projects.map(project => ({
   title: project.projectTitle,
   description: project.projectSubheading,
   image: project.projectCoverImage,
+  slug: project.slug,
 }));
 
 export default function Work() {
@@ -33,7 +34,7 @@ export default function Work() {
             </h2>
           </div>
           <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-            My work stands at the crossroad of design and utility: A testament to the harmonious blend of form and function. From intricate design methodology, to breakthrough technological developments, I strive to embody a philosophy where simplicity and innovation converge. This portfolio represents more than a collection of work; it's a mosaic of visionary thought made tangible.
+            My work spans robotics, computer vision, and full-stack development. I focus on building systems that integrate seamlessly, from autonomous Mars rovers to astrophysics simulations. This portfolio showcases projects where technical precision meets innovative problem-solving.
           </p>
         </section>
 
@@ -41,7 +42,7 @@ export default function Work() {
         <section className="mb-16">
           <div className="space-y-12">
             {workProjects.map((work) => (
-              <WorkPost key={work.title} title={work.title} description={work.description} image={work.image} />
+              <WorkPost key={work.title} title={work.title} description={work.description} image={work.image} slug={work.slug} />
             ))}
           </div>
         </section>

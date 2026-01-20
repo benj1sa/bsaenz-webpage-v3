@@ -38,6 +38,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       title: p.projectTitle,
       description: p.projectSubheading,
       image: p.projectCoverImage,
+      slug: p.slug,
     }));
 
   return (
@@ -297,7 +298,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {discoverMore.map((work) => (
-                <WorkPost key={work.title} title={work.title} description={work.description} image={work.image} />
+                <WorkPost key={work.title} title={work.title} description={work.description} image={work.image} slug={work.slug} />
               ))}
             </div>
           </section>

@@ -1,0 +1,533 @@
+{
+  "projects": {
+    "active": [
+      {
+        "id": "umd-loop-mars-rover",
+        "title": "UMD Loop Mars Rover Development",
+        "slug": "ROS2",
+        "url": "https://www.umdloop.com/",
+        "description": "Pioneering the next generation of Mars exploration through robotics and autonomous systems.",
+        "team": "UMD Loop - Competitive engineering team",
+        "competition": "University Rover Challenge (URC)",
+        "role": "Integration Sub-Team Member",
+        "focus": "Ensuring seamless communication and functionality across all rover systems",
+        "technologies": ["ROS2", "Python", "OpenCV", "Matlab", "CAN"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/umd-loop.webp",
+            "relativePath": "public/images/umd-loop.webp",
+            "format": "webp",
+            "description": "UMD Loop Mars Rover thumbnail image"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/umd-loop.webp",
+              "relativePath": "public/images/umd-loop.webp",
+              "format": "webp",
+              "description": "UMD Loop Mars Rover - Main view"
+            },
+            {
+              "type": "local",
+              "path": "/images/umd-loop-2.png",
+              "relativePath": "public/images/umd-loop-2.png",
+              "format": "png",
+              "description": "UMD Loop Mars Rover - Secondary view"
+            },
+            {
+              "type": "local",
+              "path": "/images/umd-loop-3.png",
+              "relativePath": "public/images/umd-loop-3.png",
+              "format": "png",
+              "description": "UMD Loop Mars Rover - Additional view"
+            }
+          ]
+        },
+        "content": {
+          "summary": "UMD Loop is a competitive engineering team participating in the University Rover Challenge (URC), an annual robotics competition where collegiate teams from around the world design and build Mars rovers.",
+          "keyContributions": [
+            {
+              "area": "Autonomous Navigation",
+              "description": "Researching and implementing epipolar geometry, stereo camera calibration, and depth estimation to enable precise autonomous movement and obstacle avoidance."
+            },
+            {
+              "area": "Core Communication",
+              "description": "Facilitating CAN protocol-based communication for motor controls and sensor data integration, ensuring real-time responsiveness across the rover."
+            },
+            {
+              "area": "Computer Vision",
+              "description": "Applying advanced techniques such as Scale-Invariant Feature Transform (SIFT) and disparity mapping for 3D scene reconstruction and stereo vision."
+            }
+          ],
+          "technicalDetails": {
+            "mathematicalConcepts": [
+              "Epipolar geometry",
+              "Fundamental matrix derivation",
+              "Stereo camera calibration and rectification",
+              "Depth map computation"
+            ],
+            "applications": [
+              "Stereo vision and depth mapping",
+              "3D scene reconstruction",
+              "Obstacle avoidance for Martian terrain navigation"
+            ]
+          },
+          "impact": "Contributing to the broader mission of advancing planetary exploration through hands-on experience in system integration, robotics software development, and cutting-edge computer vision techniques."
+        },
+        "status": "active",
+        "lastUpdated": "2024"
+      },
+      {
+        "id": "aether-gravitational-lensing",
+        "title": "Aether Gravitational Lensing",
+        "slug": "aceternity",
+        "url": "https://aetherumd.github.io/aether-astra/",
+        "description": "Unveiling the Origins of the Universe with Cutting-Edge Simulations.",
+        "team": "Aether Team",
+        "field": "Astrophysics",
+        "technologies": ["Nextjs", "Tailwindcss", "Aceternity UI", "React.js"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/aether-astra.png",
+            "relativePath": "public/images/aether-astra.png",
+            "format": "png",
+            "description": "Aether Gravitational Lensing project thumbnail"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/aether-astra.png",
+              "relativePath": "public/images/aether-astra.png",
+              "format": "png",
+              "description": "Aether project - Main visualization"
+            },
+            {
+              "type": "local",
+              "path": "/images/aether-astra-2.png",
+              "relativePath": "public/images/aether-astra-2.png",
+              "format": "png",
+              "description": "Aether project - Secondary view"
+            },
+            {
+              "type": "local",
+              "path": "/images/aether-astra-3.png",
+              "relativePath": "public/images/aether-astra-3.png",
+              "format": "png",
+              "description": "Aether project - Additional visualization"
+            }
+          ]
+        },
+        "content": {
+          "summary": "A groundbreaking project aimed at uncovering the mysteries behind the formation of the first stars and galaxies in the universe using supercomputers and James Webb Space Telescope (JWST) capabilities.",
+          "objectives": [
+            "Simulate the universe's earliest star clusters and galaxies",
+            "Replicate gravitational lensing phenomena observed by JWST",
+            "Create open-source tools for the global astronomy community"
+          ],
+          "methodology": {
+            "tools": [
+              "Supercomputers",
+              "James Webb Space Telescope (JWST) data"
+            ],
+            "approach": "Creating a software pipeline that applies gravitational distortions to simulated galaxies, allowing comparison with real JWST observations"
+          },
+          "significance": [
+            "Advancing Astronomy: Deeper insights into galaxy formation, answering questions about the early universe",
+            "Global Collaboration: Supporting broader astronomy community in advancing research on cosmic evolution",
+            "Inspiring Future Generations: Model for scientific inquiry and collaborative high-tech projects in astrophysics"
+          ],
+          "impact": "By making tools publicly available, supports scientists, space agencies, and students in advancing understanding of the universe's origins."
+        },
+        "status": "active",
+        "lastUpdated": "2024"
+      }
+    ],
+    "inactive": [
+      {
+        "id": "aceternity",
+        "title": "Aceternity",
+        "slug": "aceternity",
+        "url": "https://aceternity.com",
+        "description": "A design and development studio that focuses on building quality apps.",
+        "technologies": ["Nextjs", "Tailwindcss"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/sidefolio-aceternity-2.png",
+            "relativePath": "public/images/sidefolio-aceternity-2.png",
+            "format": "png",
+            "description": "Aceternity project thumbnail"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/sidefolio-aceternity-2.png",
+              "relativePath": "public/images/sidefolio-aceternity-2.png",
+              "format": "png"
+            },
+            {
+              "type": "local",
+              "path": "/images/sidefolio-aceternity.png",
+              "relativePath": "public/images/sidefolio-aceternity.png",
+              "format": "png"
+            }
+          ]
+        },
+        "status": "inactive",
+        "note": "Project exists in codebase but is commented out"
+      },
+      {
+        "id": "algochurn",
+        "title": "Algochurn",
+        "slug": "algochurn",
+        "url": "https://algochurn.com",
+        "description": "Practice for technical interviews with hands on coding challenges.",
+        "technologies": ["Nextjs", "Tailwindcss"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/sidefolio-algochurn.png",
+            "relativePath": "public/images/sidefolio-algochurn.png",
+            "format": "png",
+            "description": "Algochurn project thumbnail"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/sidefolio-algochurn.png",
+              "relativePath": "public/images/sidefolio-algochurn.png",
+              "format": "png"
+            },
+            {
+              "type": "local",
+              "path": "/images/sidefolio-algochurn-2.png",
+              "relativePath": "public/images/sidefolio-algochurn-2.png",
+              "format": "png"
+            }
+          ]
+        },
+        "status": "inactive",
+        "note": "Project exists in codebase but is commented out"
+      },
+      {
+        "id": "moonbeam",
+        "title": "Moonbeam",
+        "slug": "moonbeam",
+        "url": "https://gomoonbeam.com",
+        "description": "Never write from scratch again with Moonbeam, your AI first writing tool",
+        "technologies": ["Nextjs", "Tailwindcss"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/sidefolio-moonbeam.png",
+            "relativePath": "public/images/sidefolio-moonbeam.png",
+            "format": "png",
+            "description": "Moonbeam project thumbnail"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/sidefolio-moonbeam.png",
+              "relativePath": "public/images/sidefolio-moonbeam.png",
+              "format": "png"
+            },
+            {
+              "type": "local",
+              "path": "/images/sidefolio-moonbeam-2.png",
+              "relativePath": "public/images/sidefolio-moonbeam-2.png",
+              "format": "png"
+            }
+          ]
+        },
+        "status": "inactive",
+        "note": "Project exists in codebase but is commented out"
+      },
+      {
+        "id": "tailwind-master-kit",
+        "title": "Tailwind Master Kit",
+        "slug": "tailwindmasterkit",
+        "url": "https://tailwindmasterkit.com",
+        "description": "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
+        "technologies": ["Nextjs", "Tailwindcss"],
+        "media": {
+          "thumbnail": {
+            "type": "local",
+            "path": "/images/sidefolio-tailwindmasterkit.png",
+            "relativePath": "public/images/sidefolio-tailwindmasterkit.png",
+            "format": "png",
+            "description": "Tailwind Master Kit project thumbnail"
+          },
+          "gallery": [
+            {
+              "type": "local",
+              "path": "/images/sidefolio-tailwindmasterkit.png",
+              "relativePath": "public/images/sidefolio-tailwindmasterkit.png",
+              "format": "png"
+            },
+            {
+              "type": "local",
+              "path": "/images/sidefolio-tailwindmasterkit-2.png",
+              "relativePath": "public/images/sidefolio-tailwindmasterkit-2.png",
+              "format": "png"
+            }
+          ]
+        },
+        "status": "inactive",
+        "note": "Project exists in codebase but is commented out"
+      }
+    ]
+  },
+  "media": {
+    "projectImages": {
+      "umdLoop": [
+        {
+          "path": "/images/umd-loop.webp",
+          "relativePath": "public/images/umd-loop.webp",
+          "format": "webp",
+          "usage": "thumbnail"
+        },
+        {
+          "path": "/images/umd-loop-2.png",
+          "relativePath": "public/images/umd-loop-2.png",
+          "format": "png",
+          "usage": "gallery"
+        },
+        {
+          "path": "/images/umd-loop-3.png",
+          "relativePath": "public/images/umd-loop-3.png",
+          "format": "png",
+          "usage": "gallery"
+        }
+      ],
+      "aether": [
+        {
+          "path": "/images/aether-astra.png",
+          "relativePath": "public/images/aether-astra.png",
+          "format": "png",
+          "usage": "thumbnail"
+        },
+        {
+          "path": "/images/aether-astra-2.png",
+          "relativePath": "public/images/aether-astra-2.png",
+          "format": "png",
+          "usage": "gallery"
+        },
+        {
+          "path": "/images/aether-astra-3.png",
+          "relativePath": "public/images/aether-astra-3.png",
+          "format": "png",
+          "usage": "gallery"
+        }
+      ],
+      "inactiveProjects": [
+        {
+          "path": "/images/sidefolio-aceternity.png",
+          "relativePath": "public/images/sidefolio-aceternity.png",
+          "format": "png",
+          "project": "Aceternity"
+        },
+        {
+          "path": "/images/sidefolio-aceternity-2.png",
+          "relativePath": "public/images/sidefolio-aceternity-2.png",
+          "format": "png",
+          "project": "Aceternity"
+        },
+        {
+          "path": "/images/sidefolio-algochurn.png",
+          "relativePath": "public/images/sidefolio-algochurn.png",
+          "format": "png",
+          "project": "Algochurn"
+        },
+        {
+          "path": "/images/sidefolio-algochurn-2.png",
+          "relativePath": "public/images/sidefolio-algochurn-2.png",
+          "format": "png",
+          "project": "Algochurn"
+        },
+        {
+          "path": "/images/sidefolio-moonbeam.png",
+          "relativePath": "public/images/sidefolio-moonbeam.png",
+          "format": "png",
+          "project": "Moonbeam"
+        },
+        {
+          "path": "/images/sidefolio-moonbeam-2.png",
+          "relativePath": "public/images/sidefolio-moonbeam-2.png",
+          "format": "png",
+          "project": "Moonbeam"
+        },
+        {
+          "path": "/images/sidefolio-tailwindmasterkit.png",
+          "relativePath": "public/images/sidefolio-tailwindmasterkit.png",
+          "format": "png",
+          "project": "Tailwind Master Kit"
+        },
+        {
+          "path": "/images/sidefolio-tailwindmasterkit-2.png",
+          "relativePath": "public/images/sidefolio-tailwindmasterkit-2.png",
+          "format": "png",
+          "project": "Tailwind Master Kit"
+        }
+      ],
+      "other": [
+        {
+          "path": "/images/about.webp",
+          "relativePath": "public/images/about.webp",
+          "format": "webp",
+          "usage": "about page"
+        },
+        {
+          "path": "/images/wiseai-2.jpg",
+          "relativePath": "public/images/wiseai-2.jpg",
+          "format": "jpg",
+          "usage": "unknown"
+        }
+      ]
+    },
+    "technologyLogos": [
+      {
+        "name": "Next.js",
+        "path": "/images/logos/next.png",
+        "relativePath": "public/images/logos/next.png",
+        "format": "png",
+        "displayName": "Next.js",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "AWS",
+        "path": "/images/logos/aws.webp",
+        "relativePath": "public/images/logos/aws.webp",
+        "format": "webp",
+        "displayName": "AWS",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "Framer Motion",
+        "path": "/images/logos/framer.webp",
+        "relativePath": "public/images/logos/framer.webp",
+        "format": "webp",
+        "displayName": "Framer Motion",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "Node",
+        "path": "/images/logos/node.png",
+        "relativePath": "public/images/logos/node.png",
+        "format": "png",
+        "displayName": "Node",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "Tailwind",
+        "path": "/images/logos/tailwind.png",
+        "relativePath": "public/images/logos/tailwind.png",
+        "format": "png",
+        "displayName": "Tailwind",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "Vercel",
+        "path": "/images/logos/vercel.png",
+        "relativePath": "public/images/logos/vercel.png",
+        "format": "png",
+        "displayName": "Vercel",
+        "usage": "TechStack component"
+      },
+      {
+        "name": "Figma",
+        "path": "/images/logos/figma.png",
+        "relativePath": "public/images/logos/figma.png",
+        "format": "png",
+        "displayName": "Figma",
+        "usage": "Available but not currently used"
+      }
+    ],
+    "externalImages": {
+      "aboutPage": [
+        {
+          "url": "https://images.unsplash.com/photo-1692544350322-ac70cfd63614?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
+          "source": "Unsplash",
+          "usage": "About page gallery",
+          "component": "About.tsx"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1692374227159-2d3592f274c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60",
+          "source": "Unsplash",
+          "usage": "About page gallery",
+          "component": "About.tsx"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1692005561659-cdba32d1e4a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+          "source": "Unsplash",
+          "usage": "About page gallery",
+          "component": "About.tsx"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1692445381633-7999ebc03730?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60",
+          "source": "Unsplash",
+          "usage": "About page gallery",
+          "component": "About.tsx"
+        }
+      ]
+    },
+    "mediaDirectories": {
+      "root": "/public/images",
+      "logos": "/public/images/logos",
+      "relativeRoot": "public/images",
+      "relativeLogos": "public/images/logos"
+    }
+  },
+  "urls": {
+    "projects": {
+      "active": [
+        {
+          "name": "UMD Loop Mars Rover",
+          "url": "https://www.umdloop.com/",
+          "type": "official_website"
+        },
+        {
+          "name": "Aether Gravitational Lensing",
+          "url": "https://aetherumd.github.io/aether-astra/",
+          "type": "project_website"
+        }
+      ],
+      "inactive": [
+        {
+          "name": "Aceternity",
+          "url": "https://aceternity.com",
+          "type": "external"
+        },
+        {
+          "name": "Algochurn",
+          "url": "https://algochurn.com",
+          "type": "external"
+        },
+        {
+          "name": "Moonbeam",
+          "url": "https://gomoonbeam.com",
+          "type": "external"
+        },
+        {
+          "name": "Tailwind Master Kit",
+          "url": "https://tailwindmasterkit.com",
+          "type": "external"
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "lastGenerated": "2024",
+    "source": "Website codebase analysis",
+    "imageConfig": {
+      "allowedDomains": [
+        "images.unsplash.com",
+        "res.cloudinary.com",
+        "i.imgur.com"
+      ],
+      "localPath": "/public/images",
+      "publicPath": "/images"
+    }
+  }
+}
