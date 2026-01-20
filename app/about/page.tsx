@@ -65,23 +65,23 @@ export default function About() {
           <p className="text-base text-gray-900 leading-relaxed font-(family-name:--font-inter) mb-10">
             A computer engineering student, full-stack developer, and creator that loves building things that impact lives.
           </p>
-          <div className="mb-16 space-y- flex flex-row justify-left gap-64"> 
-            <div>
+          <div className="mb-16 flex flex-row justify-between"> 
+            <div className="flex flex-col">
               <div className="text-xs uppercase tracking-wider text-[#757575] mb-4 font-medium font-(family-name:--font-inter)">
               Specializations
               </div>
-              <div className="flex flex-col font-(family-name:--font-inter) text-sm text-gray-900">
+              <div className="font-(family-name:--font-inter) text-sm text-gray-900">
                 <p>System Integration</p>
                 <p>Robotics Software Development</p>
                 <p>Computer Vision</p>
                 <p>Full-Stack Web Development</p>
               </div>
             </div>
-            <div>
+            <div className="flex flex-col">
               <div className="text-xs uppercase tracking-wider text-[#757575] mb-4 font-medium font-(family-name:--font-inter)">
               Achievements
               </div>
-              <div className="flex flex-col font-(family-name:--font-inter) text-sm text-gray-900">
+              <div className="font-(family-name:--font-inter) text-sm text-gray-900">
                 <p>48% improvement in robotic propulsion optimization</p>
                 <p>100% student satisfaction rate as STEM Tutor</p>
                 <p>Presented research to 100+ attendees</p>
