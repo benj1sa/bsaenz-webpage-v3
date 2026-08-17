@@ -30,7 +30,7 @@ export const posts: BlogPost[] = [
 
   {
     slug: 'the-difference-between-moving-and-becoming',
-    title: 'The Difference Between Moving and Becoming',
+    title: 'the difference between moving and becoming',
     category: 'Lifestyle',
     date: 'January 10, 2026',
     coverImage: '/images/the-difference-between-moving-and-becoming.png',
@@ -76,7 +76,7 @@ export const posts: BlogPost[] = [
   },
   {
     slug: 'writing-to-reclaim-independent-thought',
-    title: 'Writing To Reclaim Independent Thought',
+    title: 'writing to reclaim independent thought',
     category: 'Lifestyle',
     date: 'January 10, 2026',
     coverImage: '/images/writing-to-reclaim-independent-thought.png',
@@ -155,5 +155,12 @@ export function getAllPostSlugs(): string[] {
 
 // Helper function to get all posts (for listing page)
 export function getAllPosts(): BlogPost[] {
-  return posts;
+  return [...posts].sort((firstPost, secondPost) => (
+    Date.parse(secondPost.date) - Date.parse(firstPost.date)
+  ));
+}
+
+// Helper function to get the newest post for featured placements
+export function getLatestPost(): BlogPost | undefined {
+  return getAllPosts()[0];
 }

@@ -1,5 +1,5 @@
 import { Footer, Navigation, WritingPost, WorkPost, SubscriptionBox } from "@/components/ui";
-import { getAllPosts } from "@/data/posts";
+import { getAllPosts, getLatestPost } from "@/data/posts";
 import { projects } from "@/data/projects";
 import Link from "next/link";
 
@@ -29,7 +29,7 @@ export default function Home() {
         {/* Welcome Section */}
         <section className="mb-16 mt-26 space-y-6">
           <h1 className="text-4xl md:text-5xl text-gray-900 mb-8 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
-            hi, i'm ben.
+            hello! i'm ben.
           </h1>
           
           <div>
@@ -65,8 +65,7 @@ export default function Home() {
 
         {/* Latest Post Section */}
         {(() => {
-          const allPosts = getAllPosts();
-          const latestPost = allPosts.length > 0 ? allPosts[0] : null;
+          const latestPost = getLatestPost();
           return (
             latestPost && (
               <section className="group cursor-pointer">

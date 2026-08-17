@@ -38,6 +38,8 @@ export default function Work() {
           </p> */}
         </section>
 
+        <div className="border-t border-gray-200 my-8"></div>
+
         {/* Work Projects Section */}
         <section className="mb-16">
           <div className="space-y-12">
