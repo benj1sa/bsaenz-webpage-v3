@@ -1,4 +1,5 @@
 import { Footer, Navigation } from "@/components/ui";
+import { FormattedParagraph } from "@/components/ui/FormattedParagraph";
 import { getPostBySlug, getAllPostSlugs, getAllPosts } from "@/data/posts";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -163,7 +164,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
               {/* Section Paragraphs */}
               {section.paragraphs.map((paragraph, paragraphIndex) => (
                 <p key={paragraphIndex} className="text-base text-[#333333] leading-relaxed font-(family-name:--font-inter)">
-                  {paragraph}
+                  <FormattedParagraph>{paragraph}</FormattedParagraph>
                 </p>
               ))}
 

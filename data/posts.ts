@@ -131,8 +131,8 @@ export const posts: BlogPost[] = [
       {
         heading: "today’s opportunities 🗺️",
         paragraphs: [
-          "- [**$12,000 ai alignment fellowship**](https://www.aialignmentfoundation.org/fellowship?utm_source=substack\\&utm_medium=email)",
-          "- [**ux internship**](https://lifeattiktok.com/search/7602132104936130869?utm_source=substack\\&utm_medium=email) at tiktok",
+          "- [**$12,000 ai alignment fellowship**](https://www.aialignmentfoundation.org/fellowship?utm_source=substack&utm_medium=email)",
+          "- [**ux internship**](https://lifeattiktok.com/search/7602132104936130869?utm_source=substack&utm_medium=email) at tiktok",
           "- get funded to [**attack and defend frontier AI systems in singapore**](https://1c74b363.click.kit-mail3.com/zluodk0np9cnhkqzz80cphw2ve8z6c6hkv3g4/l2hehmhlmp6w6vugu0/aHR0cHM6Ly93d3cuc2VjdXJlZmFzdC5haS8=)"
         ]
       }
