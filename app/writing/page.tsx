@@ -37,14 +37,14 @@ export default function Writing() {
             <h1 className="text-4xl md:text-5xl text-gray-900 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
               Writing
             </h1>
-            <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
+            {/* <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
               Online Exploration
-            </h2>
+            </h2> */}
           </div>
-          <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
+          {/* <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
             Join me as I explore the delicate tapestry of habits that embroider our being. My writings are lanterns in the vastness of existence, illuminating the subtle dance of incremental change and its capacity to shape our destinies. In the minutiae lies the monumental, and we're all invited to discover the poetry of productivity and the art of mindful living.
           </p>
-          <SubscriptionBox />
+          <SubscriptionBox /> */}
         </section>
 
         <div className="border-t border-gray-200 my-8"></div>

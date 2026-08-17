@@ -59,9 +59,9 @@ export default function About() {
 
         {/* Description Section */}
         <section className="mb-16">
-          <h2 className="text-2xl md:text-3xl text-gray-900 mb-8 font-light italic tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
+          {/* <h2 className="text-2xl md:text-3xl text-gray-900 mb-8 font-light italic tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
             Computer Engineering Student, Full-Stack Developer, Creator
-          </h2>
+          </h2> */}
           <p className="text-base text-gray-900 leading-relaxed font-(family-name:--font-inter) mb-10">
             A computer engineering student, full-stack developer, and creator that loves building things that impact lives.
           </p>

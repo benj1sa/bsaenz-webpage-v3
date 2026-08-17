@@ -21,12 +21,12 @@ export default function Contact() {
             <h1 className="text-4xl md:text-5xl text-gray-900 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
               Contact
             </h1>
-            <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
+            {/* <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
               Don't be a stranger!
-            </h2>
+            </h2> */}
           </div>
           <p className="text-base text-gray-900 leading-relaxed font-(family-name:--font-inter)">
-            Open to connections and opportunities. Reach out to me over email or fill up this contact form.
+            Open to connections and opportunities. Reach out to me over email or fill out this contact form.
           </p>
         </section>
 

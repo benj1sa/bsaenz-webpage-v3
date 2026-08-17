@@ -27,15 +27,15 @@ export default function Work() {
         <section className="mb-16 mt-26 space-y-6">
           <div className="mb-12">
             <h1 className="text-4xl md:text-5xl text-gray-900 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
-              Client work
+              Portfolio
             </h1>
-            <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
+            {/* <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
               Expert Generalist
-            </h2>
+            </h2> */}
           </div>
-          <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
+          {/* <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
             My work spans robotics, computer vision, and full-stack development. I focus on building systems that integrate seamlessly, from autonomous Mars rovers to astrophysics simulations. This portfolio showcases projects where technical precision meets innovative problem-solving.
-          </p>
+          </p> */}
         </section>
 
         {/* Work Projects Section */}
