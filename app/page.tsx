@@ -37,7 +37,7 @@ export default function Home() {
               my present <span className="font-normal">//</span>
             </h2>
             <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-              building <span className="italic bg-yellow-100 px-1 rounded-md">autonomous robotics systems</span> and <span className="italic bg-yellow-100 px-1 rounded-md">astrophysics simulations</span>.
+              building software for <span className="italic bg-yellow-100 px-1 rounded-md">autonomous robotics systems</span> and <span className="italic bg-yellow-100 px-1 rounded-md">astrophysics simulations</span>.
             </p>
           </div>
           
@@ -55,7 +55,7 @@ export default function Home() {
               my future <span className="font-normal">//</span>
             </h2>
             <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-              make a lot of <span className="italic bg-yellow-100 px-1 rounded-md">friends</span>, and help a lot more people. continue building <span className="italic bg-yellow-100 px-1 rounded-md">technology that improves lives</span> through curiosity and innovation.
+              make a lot of <span className="italic bg-yellow-100 px-1 rounded-md">friends</span>, and help a lot more people. continue building <span className="italic bg-yellow-100 px-1 rounded-md">technology that improves lives</span>.
             </p>
           </div>
         </section>
