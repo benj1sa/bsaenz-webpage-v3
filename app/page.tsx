@@ -29,7 +29,7 @@ export default function Home() {
         {/* Welcome Section */}
         <section className="mb-16 mt-26 space-y-6">
           <h1 className="text-4xl md:text-5xl text-gray-900 mb-8 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
-            Welcome!
+            hi, i'm ben.
           </h1>
           
           <div>
@@ -37,7 +37,7 @@ export default function Home() {
               my present <span className="font-normal">//</span>
             </h2>
             <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-              building software for <span className="italic bg-yellow-100 px-1 rounded-md">autonomous robotics systems</span> and <span className="italic bg-yellow-100 px-1 rounded-md">astrophysics simulations</span>.
+              building software to <span className="italic bg-yellow-100 px-1 rounded-md">support underrepresented groups in STEM</span> and <span className="italic bg-yellow-100 px-1 rounded-md">astrophysics simulations</span>.
             </p>
           </div>
           
@@ -46,8 +46,9 @@ export default function Home() {
               my past <span className="font-normal">//</span>
             </h2>
             <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-              optimized underwater robotic <span className="italic bg-yellow-100 px-1 rounded-md">propulsion by 48%</span> using Bayesian optimization, achieved <span className="italic bg-yellow-100 px-1 rounded-md">100% student satisfaction</span> as a STEM tutor, and presented research to <span className="italic bg-yellow-100 px-1 rounded-md">100+ attendees</span> at the FIRE conference.
+              worked on an <span className="italic bg-yellow-100 px-1 rounded-md">agentic knowledge layer</span> at Comcast and served as <span className="italic bg-yellow-100 px-1 rounded-md">founding engineer</span> at a healthcare startup through <span className="italic bg-yellow-100 px-1 rounded-md">MIT AI Venture Studio x Harvard Innovation Labs</span>.
             </p>
+       
           </div>
           
           <div>
@@ -55,7 +56,7 @@ export default function Home() {
               my future <span className="font-normal">//</span>
             </h2>
             <p className="text-base text-gray-800 leading-relaxed font-(family-name:--font-inter)">
-              make a lot of <span className="italic bg-yellow-100 px-1 rounded-md">friends</span>, and help a lot more people. continue building <span className="italic bg-yellow-100 px-1 rounded-md">technology that improves lives</span>.
+              make many <span className="italic bg-yellow-100 px-1 rounded-md">friends</span>, and help many more people. continue building <span className="italic bg-yellow-100 px-1 rounded-md">technology that improves lives</span>.
             </p>
           </div>
         </section>
