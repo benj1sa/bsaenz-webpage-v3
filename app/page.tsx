@@ -106,7 +106,7 @@ export default function Home() {
         <div className="border-t border-gray-200 my-8"></div>
 
         {/* Newsletter Section */}
-        <section className="mb-16">
+        {/* <section className="mb-16">
           <h2 className="text-2xl md:text-3xl text-gray-900 mb-8 font-light italic tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
             Newsletter
           </h2>
@@ -114,10 +114,10 @@ export default function Home() {
             Join 69,000 ambitious entrepreneurs in subscribing to my weekly newsletter, where I share actionable advice on how to become the best version of yourself and industry secrets to transform your life (and yo-yo tricks).
           </p>
           <SubscriptionBox />
-          {/* <p className="text-sm font-light italic font-(family-name:--font-crimson-pro) text-gray-500">
+          <p className="text-sm font-light italic font-(family-name:--font-crimson-pro) text-gray-500">
             Join 69,000 inspired readers for my weekly newsletter.
-          </p> */}
-        </section>
+          </p>
+        </section> */}
 
         {/* Archive Section */}
         {(() => {
