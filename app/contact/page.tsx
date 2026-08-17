@@ -25,9 +25,6 @@ export default function Contact() {
               Don't be a stranger!
             </h2> */}
           </div>
-          <p className="text-base text-gray-900 leading-relaxed font-(family-name:--font-inter)">
-            Open to connections and opportunities. Reach out to me over email or fill out this contact form.
-          </p>
         </section>
 
         <div className="border-t border-gray-200 my-8"></div>
