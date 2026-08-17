@@ -9,20 +9,16 @@ const links = [
 
 const upToNow = [
   {
-    title: 'UMD Loop Mars Rover Development',
-    description: 'Developing autonomous navigation and stereo vision systems for a Mars rover competing in URC.',
+    title: 'CSS Atlas',
+    description: 'Developing a student platform to connect new students to campus resources, career services, and assist in their academic journey.',
   },
   {
     title: 'Aether Gravitational Lensing',
     description: 'Contributing to astrophysics simulations that model the universe\'s earliest star clusters and galaxies.',
   },
   {
-    title: 'Private STEM & Programming Tutor',
-    description: 'Providing personalized tutoring to high school students in programming and STEM subjects.',
-  },
-  {
     title: 'College Success Scholars Leadership',
-    description: 'Leading student success initiatives as Executive Board Co-Chair to foster academic and professional growth.',
+    description: 'Leading student success initiatives as a Program Coordinator to foster academic and professional growth.',
   },
 ]
 export default function About() {
