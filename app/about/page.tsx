@@ -39,9 +39,6 @@ export default function About() {
             <h1 className="text-4xl md:text-5xl text-gray-900 font-light tracking-[-0.02em] leading-[130%] font-(family-name:--font-crimson-pro)">
                 About
             </h1>
-            <h2 className="text-4xl md:text-5xl text-[#a6a6a6] font-extralight italic tracking-[-0.07em] font-(family-name:--font-crimson-pro)">
-                Benjamin Saenz
-            </h2>
           </div>
         <div className="relative w-25 h-25 shrink-0">
           {/* Faded grey circle background */}

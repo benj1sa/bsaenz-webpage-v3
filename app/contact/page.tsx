@@ -30,6 +30,8 @@ export default function Contact() {
           </p>
         </section>
 
+        <div className="border-t border-gray-200 my-8"></div>
+
         {/* Contact Form */}
         <section className="mb-16">
           <form className="flex flex-col gap-4">
